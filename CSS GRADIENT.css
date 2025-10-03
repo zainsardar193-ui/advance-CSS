@@ -1,0 +1,26 @@
+
+.demo
+{
+    width: 1400px;
+    height: 100px;
+   
+    background-image: linear-gradient(to right, red, green, yellow, blue);
+}
+h1
+{
+    line-height: 100px;
+    color: white;
+}
+.box
+{
+    background-image: radial-gradient(circle, yellow, blue);
+    width: 200px;
+    height: 200px;
+}
+.box1
+{
+    background-image: conic-gradient(blue, white, red);
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
