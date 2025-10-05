@@ -1,0 +1,23 @@
+.box
+{
+    background-color: royalblue;
+    width: 200px;
+    height: 200px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    animation-name: demo;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes demo{
+    from
+    {
+        background-color: royalblue;
+    }
+    to
+    {
+         background-color: brown;
+    }
+}
