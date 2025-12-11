@@ -1,0 +1,19 @@
+nav ul li{
+   
+ 
+    background-color: rgb(234, 6, 6);
+    list-style-position: inside;
+    border: 2px solid black;
+     list-style-image:url(css.png);
+     
+
+}
+body{
+background-color: rgba(1, 248, 248, 0.826);
+}
+nav ol li{
+    list-style:armenian;
+    background-color: wheat;
+    list-style-position:none;
+    border: 5px solid palevioletred;
+}
