@@ -1,0 +1,30 @@
+.box
+{
+    width: 20vw;
+    height: 40vh;
+    border: 2px solid black;
+    background-color: yellow;
+    color: red;
+    overflow: scroll;
+    scrollbar-color:purple;
+    /* white-space: nowrap; */ 
+      /* white-space: nowrap;is use for horizantal scrollbar;; */
+    
+    
+   
+}
+.overflow
+{
+    width: 45vw;
+    height: 20vh;
+    background-color: aqua;
+    color: rgb(55, 8, 167);
+    border: 2px dotted black;
+   white-space:nowrap;
+    overflow: scroll;
+    position: absolute;
+    top: 10%;
+    left: 30%;
+     text-overflow: ellipsis;
+
+}
