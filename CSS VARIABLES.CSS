@@ -1,0 +1,30 @@
+:root{
+  --color:blue;
+  --seccolor:rgb(136, 136, 224);
+  --defpad: 30px;
+}
+
+*
+{
+  margin: 0px;
+  padding: var(--defpad);
+}
+.nav
+{
+  background-color: var(--seccolor);
+}
+.containor{
+ background-color: var(--color);
+}
+ul{
+display: flex;
+}
+ul li{
+  list-style: none;
+  padding: 30px;
+  border: 3px dotted var(--color);
+}
+ul li:first-child{
+    --color:rgb(207, 60, 226);
+    background-color: var(--color);
+}
