@@ -1,0 +1,20 @@
+img 
+{
+  float:left;
+  border: 2px solid black;
+}
+.cards
+{
+  border: 2px solid black;
+  display: flow-root;
+}
+.card{
+  border:2px solid rgb(201, 34, 34);
+}
+.card:nth-child(3){
+  background-color: aqua;
+  clear: left;
+  /* clear : left; -> koi bhi floating element left me nahi aa payga.
+clear: right; -> koi bhi floating element right me nahi aa payga.
+clear: both; -> koi bhi floating element left aur right me dono jagah najar nahi aayga. */
+}
