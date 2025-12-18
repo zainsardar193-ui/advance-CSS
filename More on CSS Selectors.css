@@ -1,0 +1,56 @@
+
+/* .box:first-child
+{
+    background-color: red; */
+/* } */
+
+
+/* .boxes::first-line{
+    color: yellow;
+} */
+
+/* .boxes *{
+    color: blue;
+    border : 2px solid black;
+}
+
+[data-color="primary"]
+{
+    margin: 10px;
+    background-color: red;
+} */
+ body
+ {
+    background-color: rgb(106, 133, 124);
+ }
+ .boxes::first-letter
+ {
+    color: rgb(175, 6, 227);
+    font-size: 110px;
+ }
+
+.box:nth-child(even) 
+{
+    background-color: aqua;
+}
+.box:nth-last-child(1)
+{
+    background-color: blueviolet;
+}
+.boxes::before
+{
+     content: "heyy i am man";
+     color: rgb(189, 113, 14);
+}
+.boxes::after
+{
+     content: "heyy i am last";
+     color: rgb(87, 7, 7);
+}
+input::placeholder
+{
+    background-color: yellow;
+    color: rgb(226, 9, 45);
+    font-style:oblique;
+   
+}
