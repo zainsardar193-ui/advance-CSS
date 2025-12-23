@@ -1,0 +1,23 @@
+.box
+{
+    width: 90px;
+height: 90px;
+background-color: rgb(220, 245, 243);
+border: 2px solid black;
+transform: rotate(0.125turn);
+
+/* transform: rotateZ(11deg);
+transform: skewX(7deg); */
+/* transform: translate(100%); */
+display: flex;
+justify-content: center;
+align-items: center;
+position: relative;
+margin: 160px 150px;
+}
+.containor
+{
+    width: 100vw;
+height: 80vh;
+border:2px solid purple;
+}
